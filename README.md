@@ -1,3 +1,18 @@
+> ### About this fork
+> 
+> This is a fork of Google's [Web Starter Kit](https://github.com/google/web-starter-kit). It's been modified to use [Exhibit.js](https://github.com/exhibitjs/exhibit) for the build.
+> 
+> What's different:
+> 
+> - most of the gulp plugins have been replaced with Exhibit builders
+> - it requires Node 4+
+> 
+> It still uses gulp as a task runner (gulp, gulp serve) and it has all the same features – Sass, JSHint, ServiceWorker, BrowserSync, etc.
+> 
+> But the [gulpfile](gulpfile.babel.js) is half its original size. ([Compare the repos.](https://github.com/google/web-starter-kit/compare/master...exhibitjs:master)) It also builds in about half the time, and it's easier to extend – for example, adding a new build step like Browserify is now a one-line change.
+> 
+> ![gulpfile comparison](https://cldup.com/eLLbA31ZrI-2000x2000.png)
+
 # [![Web Starter Kit](https://cloud.githubusercontent.com/assets/170270/3343034/ceef6e92-f899-11e3-96b9-5d9d69d97a00.png)](https://github.com/google/web-starter-kit/releases/latest)
 
 ## Overview
